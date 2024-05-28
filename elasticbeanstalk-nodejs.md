@@ -12,3 +12,4 @@ Alojar una aplicación de nodejs en AWS utilizando el servicio de Elastic Beanst
   - Variables de entorno
     - Elastic Beanstalk carga las variables configuradas en el entorno dentro de la aplicación
     - La aplicación se ejecuta en un entorno nginx proxy reverse en el puerto 8080, no en el puerto 3000 como suele ser costumbre.
+    - OJO al package.json, EB ejecutará el comando npm start una vez finalice la carga de la app.
